@@ -38,11 +38,11 @@
 
     <div style="background-color: #111827;padding: 10px;">
         <div class="container">
-            <div class="card" style="background-color: #1F2937;">
+            <div class="card z-depth-0" style="background-color: #1F2937;border-radius: 10px;">
                 <div class="card-content">
                     <div class="row">
-                        <div class="col s12 l6">
-                            <img src="/images/woman_researcher.webp" width="100%" alt="">
+                        <div class="col s12 l6 hide-on-med-and-down" style="margin-top: 6%;">
+                            <img src="/images/undraw_welcome_re_h3d9.svg" width="100%" alt="">
                         </div>
                         <div class="col s12 l6">
                             <img src="/images/logo.svg" width="50px" alt="">
@@ -56,6 +56,19 @@
                                     <a href="#" class="btn z-depth-0" style="width: 350px;background-color: #101016;border: 1px solid #A2A2A4;border-radius: 10px;color: #A2A2A4;font-weight: 500;"><i class="fa-brands fa-github fa-lg" style="color: #6E3FAD;"></i> Signin with Github</a>
                                 </div>
                                 <h1 style="font-size: 17px;font-weight: 500;text-align: center;color: #6E3FAD;">OR</h1>
+
+                                <div>
+                                    <input type="text" required placeholder="Name" style="color: #A2A2A4;font-size: 18px;font-weight: 500;">
+                                    <input type="password" required placeholder="Password" style="color: #A2A2A4;font-size: 18px;font-weight: 500;">
+
+                                    <div><br>
+                                        <a href="#" class="btn z-depth-0" style="width: 350px;background-color: #6E3FAD;border-radius: 10px;color: white;font-weight: 500;">Signin <i class="fa-solid fa-check fa-lg" style="color: white;"></i></a>
+                                    </div>
+                                </div><br>
+                                <div>
+                                    <p style="font-size: 18px;color: #A2A2A4;font-weight: 500;margin-bottom: 1%;">Don't have an Account?</p>
+                                    <a href="#" class="btn z-depth-0" style="width: 350px;background-color: #6E3FAD;border-radius: 10px;color: white;font-weight: 500;">Signup <i class="fa-solid fa-right-to-bracket fa-lg" style="color: white;"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,5 +76,47 @@
             </div>
         </div>
     </div>
+
+    <!-----------------------fotter----------------------->
+    <div style="background-color: #101016;padding: 10px;">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l3">
+                    <a href="#" class="brand-logo"><img src="/images/logo.svg" width="50px" alt=""></a>
+                    <p style="color: #A2A2A4;font-size: 16px;font-weight: 500;">Your Personal Research Recommendation Engine - Get Curated Papers Delivered Straight to Your Inbox!</p>
+                </div>
+                <div class="col s12 l3">
+                    <h1 style="font-size: 15px;color: #A2A2A4;font-weight: 700 ;">NAVIGATIONS</h1>
+                    <p><a href="#" style="color: #A2A2A4;font-weight: 500;">Home</a></p>
+                    <p><a href="#" style="color: #A2A2A4;font-weight: 500;">Features</a></p>
+                    <p><a href="#" style="color: #A2A2A4;font-weight: 500;">About us</a></p>
+                </div>
+                <div class="col s12 l3">
+                    <h1 style="font-size: 15px;color: #A2A2A4;font-weight: 700 ;">CUSTOMER SECTION</h1>
+                    <p><a href="#" style="font-weight: 500;color: #A2A2A4;">Privacy policy</a></p>
+                    <p><a href="#" style="font-weight: 500;color: #A2A2A4;">Terms of sevice</a></p>
+                    <p><a href="#" style="font-weight: 500;color: #A2A2A4;">FAQs</a></p>
+                    <p><a href="#" style="font-weight: 500;color: #A2A2A4;">Feedback & Suggestions</a></p>
+                </div>
+                <div class="col s12 l3">
+                    <h1 style="font-size: 15px;color: #A2A2A4;font-weight: 700 ;">CONNECT WITH US ON SOCIALS</h1>
+                    <p><a href="#" style="font-weight: 500;color: #A2A2A4;"><i class="fa-brands fa-square-facebook fa-xl" style="color: #6E3FAD;"></i> Facebook</a></p>
+                    <p><a href="#" style="font-weight: 500;color: #A2A2A4;"><i class="fa-brands fa-square-twitter fa-xl" style="color: #6E3FAD;"></i> Twitter</a></p>
+                    <p><a href="#" style="font-weight: 500;color: #A2A2A4;"><i class="fa-brands fa-square-instagram fa-xl" style="color: #6E3FAD;"></i> Instagram</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 style="text-align: center;color: #A2A2A4;font-size: 20px;font-weight: 500;">Designed By Ali Muhammmed</h1>
+        </div>
+        </div>
+    </div>
 </body>
+<script src="/js/jquery.js"></script>
+<script src="/js/materialize.js"></script>
+<script>
+    $(document).ready (function(){
+        $('.sidenav').sidenav();
+    })
+</script>
 </html>
